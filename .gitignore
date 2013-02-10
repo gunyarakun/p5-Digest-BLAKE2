@@ -1,0 +1,28 @@
+Makefile
+local/
+inc/
+*.c
+!blake2/sse/*.c
+!stringencoders/*.c
+*.o
+ppport.h
+*.sw[po]
+*.bak
+*.old
+Build
+_build/
+xshelper.h
+tags
+pm_to_blib
+blib/
+MYMETA.*
+META.json
+META.yml
+
+# generated files
+BLAKE2[sb]*.xs
+BLAKE2[sb]*.pm
+stringencoders/config.h
+
+# for ShipIt
+Digest-BLAKE2-*/

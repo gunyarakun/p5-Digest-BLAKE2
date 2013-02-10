@@ -1,0 +1,49 @@
+# VCS
+^.git/
+
+# For maintainer
+^author/
+^\.shipit$
+^\.perltidyrc$
+^\.gitignore$
+^\.travis.yml$
+^MANIFEST\.SKIP$
+
+# Temporary files
+\.tmp$
+\.old$
+\.bak$
+\.orig$
+\.rej$
+\..*?\.sw[po]$
+
+# Mac
+\.DS_Store$
+
+# Perl generated files
+^Build$
+^cover_db
+^_build/
+^blib/
+
+# C generated files
+\.o$
+
+# Locally installed modules
+^local/
+^MYMETA\.yml$
+^MYMETA\.json$
+
+# For github only
+^README.pod$
+
+# Template
+BLAKE2[sb].*\.xs$
+BLAKE2[sb].*\.pm$
+^lib/Digest/BLAKE2[sbx].*\.c$
+
+# Config
+^src/config.h$
+
+# For ShipIt
+^Digest-BLAKE2-[0-9.]+/
