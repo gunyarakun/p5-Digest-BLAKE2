@@ -24,7 +24,7 @@ enum encode_type {
 };
 
 inline static SV *
-encode_string(const char *src, enum encode_type type) {
+encode_string(pTHX_ const char *src, enum encode_type type) {
     int encoded_len;
 
     switch (type) {
@@ -154,5 +154,5 @@ CODE:
     }
     blake2x_final(state, out, BLAKE2x_OUTBYTES);
     Safefree(state);
-    ST(0) = encode_string((char *)out, ix);
+    ST(0) = encode_string(aTHX_ (char *)out, ix);
     XSRETURN(1);
