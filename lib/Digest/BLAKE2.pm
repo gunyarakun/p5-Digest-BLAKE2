@@ -3,7 +3,7 @@ package Digest::BLAKE2;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use parent qw/Exporter Digest::base/;
 

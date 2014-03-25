@@ -14,7 +14,6 @@ blake2/sse/blake2s-load-xop.h
 blake2/sse/blake2s-round.h
 blake2/sse/blake2s.c
 blake2/sse/blake2sp.c
-blake2/sse/makefile
 Build.PL
 Changes
 in/lib/Digest/BLAKE2x.pm
