@@ -1,5 +1,8 @@
 Revision history for Digest::BLAKE2
 
+0.03 2023-03-08
+  - Update BLAKE2 lib to current version fixing compilation failures in GCC 11 and above
+
 0.02 2014-03-24
   - Fix the bugs in threaded Perl by rurban (RT #94112)
 

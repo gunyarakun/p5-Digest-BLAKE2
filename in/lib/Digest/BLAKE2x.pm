@@ -3,7 +3,7 @@ package Digest::BLAKE2x;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';  # FIXME
+our $VERSION = '0.03';  # FIXME
 
 use parent qw/Exporter Digest::base/;
 use XSLoader;
