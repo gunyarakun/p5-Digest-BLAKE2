@@ -1,7 +1,6 @@
 blake2/README
 blake2/sse/blake2-config.h
 blake2/sse/blake2-impl.h
-blake2/sse/blake2-kat.h
 blake2/sse/blake2.h
 blake2/sse/blake2b-load-sse2.h
 blake2/sse/blake2b-load-sse41.h
